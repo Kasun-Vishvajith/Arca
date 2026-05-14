@@ -1,4 +1,4 @@
-﻿import { svelte } from '@sveltejs/vite-plugin-svelte';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
 import { fileURLToPath } from 'url';
 import UnpluginIcons from 'unplugin-icons/vite';
 import { defineConfig } from 'vite';
@@ -24,7 +24,7 @@ export default defineConfig({
         name: 'Arca',
         short_name: 'Arca',
         theme_color: '#ffffff',
-        description: 'Arca â€” your personal macOS-style workspace',
+        description: 'Arca — your personal macOS-style workspace',
         icons: [
           { src: 'app-icons/finder/128.png', sizes: '128x128', type: 'image/png' },
           { src: 'app-icons/finder/192.png', sizes: '192x192', type: 'image/png' },
@@ -38,7 +38,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      'ðŸŽ': fileURLToPath(new URL('./src/', import.meta.url)),
+      '🍎': fileURLToPath(new URL('./src/', import.meta.url)),
     },
   },
   build: {

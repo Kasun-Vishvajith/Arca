@@ -1,7 +1,6 @@
 <script>
 	import Dock from '../Dock/Dock.svelte';
 	import TopBar from '../TopBar/TopBar.svelte';
-	import Wallpaper from '../apps/WallpaperApp/Wallpaper.svelte';
 	import BootupScreen from './BootupScreen.svelte';
 	import ContextMenu from './ContextMenu.svelte';
 	import SystemUpdate from './SystemUpdate.svelte';
@@ -28,7 +27,6 @@
 		<Dock />
 	</main>
 
-	<Wallpaper />
 	<BootupScreen />
 	<SystemUpdate />
 
@@ -39,6 +37,9 @@
 	.container {
 		height: 100%;
 		width: 100%;
+		background: linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
+		background-size: cover;
+		background-position: center;
 	}
 
 	main {
